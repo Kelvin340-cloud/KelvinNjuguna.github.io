@@ -131,7 +131,7 @@
 							<div class="expertise-box">
 								<img src="images/nlp.jpeg" width="240px">
 								<h3>Natural Language Processing</h3>
-								<p>Leveraging Python for data cleaning, analysis, machine learning, and automation tasks.</p>
+								<p>Develop solutions to interpret, understand, and generate human language, unlocking insights from text data.</p>
 							</div>
 						</div>
 					</section>
@@ -202,6 +202,7 @@
 
 				<!-- Footer -->
 				<footer id="footer">
+					
 
 					<section>
 						<form class="box" method="GET" action="mailto:n.kelvinnjuguna@gmail.com" onsubmit="return sendEmail()">
@@ -238,14 +239,15 @@
 					
 					<script>
 						function sendEmail() {
-							const name = document.getElementById('name').value;
-							const email = document.getElementById('email').value;
-							const message = document.getElementById('message').value;
-					
-							const mailtoLink = `mailto:n.kelvinnjuguna@gmail.com?subject=Message from ${encodeURIComponent(name)} (${encodeURIComponent(email)})&body=${encodeURIComponent(message)}`;
-							window.location.href = mailtoLink;
-							return false; // Prevent the default form submission
-						}
+							
+						    	const name = document.getElementById('name').value;
+						    	const email = document.getElementById('email').value;
+						    	const message = document.getElementById('message').value;
+						
+						    	const mailtoLink = `mailto:n.kelvinnjuguna@gmail.com?subject=Message from ${encodeURIComponent(name)} (${encodeURIComponent(email)})&body=${encodeURIComponent(message)}`;
+						    	window.location.href = mailtoLink;
+						    	return false; // Prevent the default form submission
+
 					</script>
 					
 					
