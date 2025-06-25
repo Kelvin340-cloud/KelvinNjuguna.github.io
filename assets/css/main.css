@@ -3851,9 +3851,30 @@ input, select, textarea {
 				margin: 0 0 2rem 0;
 			}
 
+			/*#main > .post.featured {
+				text-align: center;
+			}*/
+
 			#main > .post.featured {
 				text-align: center;
+				max-width: 750px;      /* Limit width */
+				margin: 2em auto;       /* Center it horizontally */
+				padding: 1.5em 1em;     /* Add inner spacing */
+				font-size: 0.95em;      /* Slightly smaller text */
 			}
+			
+			#main > .post.featured .image.main img {
+				max-height: 280px;      /* Shrink image height */
+				width: 100%;
+				object-fit: cover;      /* Maintain image proportion */
+				border-radius: 8px;     /* Optional: smooth corners */
+			}
+			
+			#main > .post.featured .button.large {
+				font-size: 0.9em;
+				padding: 0.6em 1.4em;
+			}
+
 
 			@media screen and (max-width: 1280px) {
 
